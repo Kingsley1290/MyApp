@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
+    <img id="myImage" src="assets/icon.png" alt="Description of the image">
       <Text>Let's get started</Text>
       <StatusBar style="auto" />
     </View>
